@@ -92,7 +92,8 @@ if (-e "image1.png")
  {
 	 $nt->update_with_media($feed, ["aber.jpg"]);
 	 
-	 /* aber.jpg is a random google image of Aberdeen residing in the subdirectory
+	 
+	/* aber.jpg is a random google image of Aberdeen residing in the subdirectory
 	 and used if a random image is not found */
 	 
 	 
