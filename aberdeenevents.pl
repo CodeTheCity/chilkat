@@ -19,6 +19,8 @@ my $imm;
 my $ven_feed = "";
 my $ven_web = "";
 
+
+/* credentials for this are obtained from the dev.twitter.com page after logging in as the twitter user*/
 my $nt = WWW->new(
         traits=> [qw/API::RESTv1_1/],
         consumer_key=> 'XXXXX',
@@ -28,7 +30,7 @@ my $nt = WWW->new(
         ssl=>1 ,
  );
 
-
+/*this is the Bing api setup from the dev bing page listed*/
 my $key= "BBBB";
 my $server= 'api.datamarket.azure.com';
 
@@ -88,7 +90,12 @@ if (-e "image1.png")
  }
  else
  {
-	 $nt->update_with_media($feed, ["aber.jpg"]);	
+	 $nt->update_with_media($feed, ["aber.jpg"]);
+	 
+	 /* aber.jpg is a random google image of Aberdeen residing in the subdirectory
+	 and used if a random image is not found */
+	 
+	 
  }
 
 }
