@@ -3,14 +3,14 @@ chilkat
 
 TEAM : Richard Buchan
 
-CHALLENGE : Socialise Events on Match the City database
+CHALLENGE : Socialise Events from URL returning JSON data.
 
 RESULTS : 
-Twitter page with associated Twitter API program.
+Twitter page, automatic tweets of Events - including venue, date, time, hashtag and image.
 
 Program obtains JSON data file from matchthecity URL, manipulates data, extracts Venue, Activity, Date and Time.
 
-Access Bing and/or Google API to get random image of activity and venue, add Aberdeen hash tag.
+Access Bing and/or Google API to get random image of activity and venue, add #Aberdeen hash tag.
 
 Tweet data, image and hashtag using Twitter API. 
 
